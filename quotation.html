@@ -106,18 +106,18 @@
         </div>
     </nav>
 
-    <header class="container mx-auto ">
+    <header class="container-fluid mx-auto ">
         <img src="https://via.placeholder.com/1200x350" alt="" class="w-full">
     </header>
 
-    <section class="container mx-auto max-w-6xl mt-24 py-16 bg-gray-100 px-16 rounded-md shadow">
+    <section class="container mx-auto max-w-6xl mt-24 py-16 bg-gray-100 px-4 sm:px-16 rounded-md shadow">
         <h2 class="mb-4 text-2xl tracking-wide text-green-700">預約諮詢 / Quotation</h2>
         <p class="mb-2">謝謝您喜歡我們的設計風格和作品！</p>
         <p class="mb-2">諮詢之前麻煩您填寫以下表單，讓我們更了解您的情況和需求。</p>
         <p class="mb-2">感謝您的耐心填寫，表單送出後我們會盡快安排人員與您聯繫，謝謝！</p>
         <p class="mb-2">*接案範圍：台南、高雄、屏東</p>
 
-        <form action="">
+        <form action="" class="mt-8">
             <h3 class="mb-4 text-xl tracking-wide text-green-700">基本資料</h3>
             <div class="flex flex-wrap mt-6 sm:-mx-4">
                 <div class="w-full sm:w-1/2 flex flex-col px-4 mb-4 sm:mb-0">
@@ -183,62 +183,94 @@
                 <div class="w-full flex flex-col px-4 mb-4 sm:mb-0 mt-8">
                     <label class="label mb-2">設計風格</label>
 
-                    <div class="flex h-5 items-center">
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">現代</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">簡約</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">休閒</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">休閒</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">古典</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">奢華</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">鄉村</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">北歐</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">美式</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">工業</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">中式</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">日式</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">其他</label>
+                    <div class="flex items-center flex-wrap">
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">現代</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">簡約</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">休閒</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">休閒</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">古典</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">奢華</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">鄉村</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">北歐</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">美式</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">工業</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">中式</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">日式</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">其他</label>
+                        </div>
                     </div>
                 </div>
 
                 <div class="w-full flex flex-col px-4 mb-4 sm:mb-0 mt-8">
-                    <label class="label mb-2">方便聯絡時間</label>
+                    <label class="label mb-6">方便聯絡時間</label>
 
                     <div class="flex h-5 items-center">
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">上午 9:00-12:00</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">午餐 12:00-14:00</label>
-                        <input id="" name="comments" type="checkbox"
-                            class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
-                        <label for="" class="font-regular text-gray-700 mx-2">下午 14:00-19:00</label>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">上午 9:00-12:00</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">午餐 12:00-14:00</label>
+                        </div>
+                        <div class="mt-4">
+                            <input id="" name="comments" type="checkbox"
+                                class="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500">
+                            <label for="" class="font-regular text-gray-700 mx-2">下午 14:00-19:00</label>
+                        </div>
                     </div>
                 </div>
 
@@ -315,9 +347,8 @@
                                 </li>
                             </ul>
                         </div>
-
                     </div>
-                    <div class="mt-12 md:mt-0">
+                    <div>
                         <h3 class="text-base font-medium text-gray-900">聯絡我們</h3>
                         <ul role="list" class="mt-4 space-y-4">
                             <li>
