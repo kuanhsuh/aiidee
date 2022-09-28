@@ -178,8 +178,7 @@
         <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
                 <div class="space-y-8 xl:col-span-1">
-                    <img class="h-10" src="https://tailwindui.com/img/logos/mark.svg?color=gray&shade=300"
-                        alt="Company name">
+                    <img class="h-10" src="./AIIDEE_logo.png" alt="Company name">
                     <p class="text-base text-gray-500">AIIDEE 艾迪室內設計傾聽您的要求並根據您的需求進行設計，立即與我們聯繫並建構出專屬於您的空間。</p>
                     <div class="flex space-x-6">
                         <a href="#" class="text-gray-400 hover:text-gray-500">
@@ -250,6 +249,16 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        var menuButton = document.querySelector("#menuButton");
+        var mobileMenu = document.querySelector("#mobile-menu");
+
+        menuButton.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden')
+        })
+
+    </script>
 </body>
 
 </html>
